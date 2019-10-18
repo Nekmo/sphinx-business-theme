@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-$primary: #4b772a;
-$secondary: #123124;
-$white: #ffffff;
-
+@import "variables";
 @import "fonts";
 @import "tables";
 @import "alerts";
@@ -11,7 +8,6 @@ $white: #ffffff;
 @import "cover";
 @import "back-cover";
 @import "text";
-@import "vulnerabilities";
 
 @media print
 {
