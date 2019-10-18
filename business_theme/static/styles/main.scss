@@ -21,6 +21,11 @@ $white: #ffffff;
     }
 }
 
+body div.body {
+    min-width: unset;
+    max-width: unset;
+}
+
 dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.connect, dl.copy, dl.any {
     > dd {
         margin-left: 0;

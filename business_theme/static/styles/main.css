@@ -807,6 +807,10 @@ a.text-dark:hover, a.text-dark:focus {
 .vulnerability-sheet td {
   width: auto; }
 
+body div.body {
+  min-width: unset;
+  max-width: unset; }
+
 dl.head > dd, dl.get > dd, dl.post > dd, dl.put > dd, dl.delete > dd, dl.patch > dd, dl.options > dd, dl.trace > dd, dl.connect > dd, dl.copy > dd, dl.any > dd {
   margin-left: 0; }
 
