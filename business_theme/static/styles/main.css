@@ -575,7 +575,13 @@
 
 #cover {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  height: 297mm; }
+  #cover h1 {
+    font-family: "Helvetica Neue Bold"; }
   #cover .container {
     width: 100%; }
     #cover .container .logo {
