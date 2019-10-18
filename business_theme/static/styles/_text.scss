@@ -1,0 +1,171 @@
+@import "variables";
+
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+.badge-danger, .badge-high {
+    color: #fff;
+    background-color: $color-high;
+}
+.badge-medium {
+    color: #fff;
+    background-color: $color-high;
+}
+.badge-critical {
+    color: #fff;
+    background-color: $color-critical;
+}
+.badge-low {
+    color: #fff;
+    background-color: $color-low;
+}
+.badge-informative {
+    color: #fff;
+    background-color: $color-informative;
+}
+.badge-unknown {
+    color: #fff;
+    background-color: $color-unknown;
+}
+
+.color-critical {
+  color: $color-critical;
+}
+
+.color-high {
+  color: $color-high;
+}
+
+.color-medium {
+  color: $color-medium;
+}
+
+.color-low {
+  color: $color-low;
+}
+
+.color-informative {
+  color: $color-informative;
+}
+
+.color-unknown {
+  color: $color-unknown;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+a {
+  color: #083764;
+  text-decoration: none;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #0056b3 !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+a.text-secondary:hover, a.text-secondary:focus {
+  color: #494f54 !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+a.text-success:hover, a.text-success:focus {
+  color: #19692c !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+a.text-info:hover, a.text-info:focus {
+  color: #0f6674 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+a.text-warning:hover, a.text-warning:focus {
+  color: #ba8b00 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+a.text-danger:hover, a.text-danger:focus {
+  color: #a71d2a !important;
+}
+
+.text-light {
+  color: #f8f9fa !important;
+}
+
+a.text-light:hover, a.text-light:focus {
+  color: #cbd3da !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+a.text-dark:hover, a.text-dark:focus {
+  color: #121416 !important;
+}
+
+.text-body {
+  color: #212529 !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
