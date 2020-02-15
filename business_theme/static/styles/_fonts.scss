@@ -91,3 +91,11 @@ src: local('Helvetica Neue Regular');
     font-weight: bold;
     src: url(../fonts/FiraSans-Bold.otf);
 }
+
+@font-face {
+	font-family: fontawesome-webfont;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/fontawesome_webfont.eot");
+	src: url("../fonts/fontawesome_webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome_webfont.woff") format("woff"), url("../fonts/fontawesome_webfont.ttf") format("truetype"), url("../fonts/fontawesome_webfont.svg#fontawesome-webfont") format("svg")
+}

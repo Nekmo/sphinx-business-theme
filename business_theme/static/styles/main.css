@@ -73,6 +73,13 @@
   font-weight: bold;
   src: url(../fonts/FiraSans-Bold.otf); }
 
+@font-face {
+  font-family: fontawesome-webfont;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/fontawesome_webfont.eot");
+  src: url("../fonts/fontawesome_webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome_webfont.woff") format("woff"), url("../fonts/fontawesome_webfont.ttf") format("truetype"), url("../fonts/fontawesome_webfont.svg#fontawesome-webfont") format("svg"); }
+
 .table-responsive {
   display: block;
   width: 100%;
@@ -762,6 +769,64 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-decoration-none {
   text-decoration: none !important; }
+
+.admonition-title:before {
+  display: inline-block;
+  font-family: fontawesome-webfont;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-decoration: inherit; }
+
+.nav .icon-spin.admonition-title, .nav .icon-spin.admonition-title {
+  display: inline-block; }
+
+li .admonition-title, li .admonition-title {
+  display: inline-block; }
+
+.admonition-title:before {
+  content: "\f06a"; }
+
+.note, .attention, .caution, .danger, .error, .hint, .important, .tip, .warning {
+  padding: 12px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  /*	border-left: solid 3px transparent */ }
+
+.danger, .error {
+  background: #ff9174;
+  border-color: #d62c1a; }
+  .danger .admonition-title, .error .admonition-title {
+    color: #fff; }
+
+.attention, .caution, .warning {
+  background: #ffedcc;
+  /*color: #fff;*/
+  border-color: #bf6516; }
+
+.note, .hint, .important, .tip {
+  background: #e7f2fa;
+  /*color: #fff;*/
+  border-color: #20638f; }
+
+.admonition-title {
+  font-weight: bold; }
+
+.admonition-title:before {
+  margin-right: 4px; }
+
+.admonition table {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+.admonition table td, .admonition table th {
+  background: transparent !important;
+  border-color: rgba(0, 0, 0, 0.1) !important; }
+
+.admonition.note span[id*='MathJax-Span'] {
+  color: #fff; }
+
+.admonition.warning span[id*='MathJax-Span'] {
+  color: #fff; }
 
 dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.connect, dl.copy, dl.any {
   break-before: auto;

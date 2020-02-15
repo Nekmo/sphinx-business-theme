@@ -1,0 +1,81 @@
+.admonition-title:before {
+	display: inline-block;
+	font-family: fontawesome-webfont;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	text-decoration: inherit
+}
+
+.nav .icon-spin.admonition-title, .nav .icon-spin.admonition-title {
+    display: inline-block
+}
+
+li .admonition-title, li .admonition-title {
+	display: inline-block
+}
+
+ .admonition-title:before {
+	content: "\f06a"
+}
+
+.note, .attention, .caution, .danger, .error, .hint, .important, .tip, .warning {
+	padding: 12px;
+	line-height: 24px;
+	margin-bottom: 24px;
+/*	border-left: solid 3px transparent */
+}
+.danger, .error {
+	background: #ff9174;
+	border-color: #d62c1a;
+
+    .admonition-title {
+        color: #fff;
+    }
+}
+.attention, .caution, .warning {
+	background: #ffedcc;
+	/*color: #fff;*/
+	border-color: #bf6516
+}
+.note, .hint, .important, .tip {
+	background: #e7f2fa;
+	/*color: #fff;*/
+	border-color: #20638f
+}
+//.wy-alert.wy-alert-success, .wy-alert-success.note, .wy-alert-success.attention, .wy-alert-success.caution, .wy-alert-success.danger, .wy-alert-success.error, .wy-alert-success.hint, .wy-alert-success.important, .wy-alert-success.tip, .wy-alert-success.warning {
+//	background: #27ae60;
+//	color: #fff;
+//	border-color: #1e8449
+//}
+//.wy-alert.wy-alert-neutral, .wy-alert-neutral.note, .wy-alert-neutral.attention, .wy-alert-neutral.caution, .wy-alert-neutral.danger, .wy-alert-neutral.error, .wy-alert-neutral.hint, .wy-alert-neutral.important, .wy-alert-neutral.tip, .wy-alert-neutral.warning {
+//	background: #f3f6f6;
+//	border-color: #e1e4e5
+//}
+//.wy-alert.wy-alert-neutral strong, .wy-alert-neutral.note strong, .wy-alert-neutral.attention strong, .wy-alert-neutral.caution strong, .wy-alert-neutral.danger strong, .wy-alert-neutral.error strong, .wy-alert-neutral.hint strong, .wy-alert-neutral.important strong, .wy-alert-neutral.tip strong, .wy-alert-neutral.warning strong {
+//	color: #404040
+//}
+//.wy-alert.wy-alert-neutral a, .wy-alert-neutral.note a, .wy-alert-neutral.attention a, .wy-alert-neutral.caution a, .wy-alert-neutral.danger a, .wy-alert-neutral.error a, .wy-alert-neutral.hint a, .wy-alert-neutral.important a, .wy-alert-neutral.tip a, .wy-alert-neutral.warning a {
+//	color: #2980b9
+//}
+
+.admonition-title {
+	font-weight: bold
+}
+.admonition-title:before {
+	margin-right: 4px
+}
+.admonition table {
+	border-color: rgba(0, 0, 0, 0.1)
+}
+.admonition table td, .admonition table th {
+	background: transparent !important;
+	border-color: rgba(0, 0, 0, 0.1) !important
+}
+
+.admonition.note span[id*='MathJax-Span'] {
+	color: #fff
+}
+.admonition.warning span[id*='MathJax-Span'] {
+	color: #fff
+}
