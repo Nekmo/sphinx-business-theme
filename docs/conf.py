@@ -43,6 +43,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.httpdomain',
+    'sphinx.ext.imgmath',
     # 'sphinxcontrib.autohttp.drf',
     # 'sphinxcontrib_django',
 ]
@@ -261,6 +262,7 @@ latex_documents = [
 # If false, no module index is generated.
 #latex_domain_indices = True
 
+imgmath_image_format = 'svg'
 
 # -- Options for manual page output ------------------------------------
 

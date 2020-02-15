@@ -11,10 +11,3 @@ Sphinx Bussiness Theme documentation
     demo/lists_tables
     demo/api
     rest_api
-
-.. toctree::
-    :maxdepth: 3
-    :numbered:
-    :caption: This is an incredibly long caption for a long menu
-
-    demo/long
