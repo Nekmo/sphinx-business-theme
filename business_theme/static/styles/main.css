@@ -80,6 +80,27 @@
   src: url("../fonts/fontawesome_webfont.eot");
   src: url("../fonts/fontawesome_webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome_webfont.woff") format("woff"), url("../fonts/fontawesome_webfont.ttf") format("truetype"), url("../fonts/fontawesome_webfont.svg#fontawesome-webfont") format("svg"); }
 
+dl dt {
+  font-weight: bold; }
+
+dl.option-list, dl.field-list {
+  display: flex;
+  flex-wrap: wrap; }
+  dl.option-list dt, dl.field-list dt {
+    padding-right: 15px;
+    flex: 0 0 33%;
+    max-width: 33%;
+    font-weight: normal; }
+  dl.option-list dd, dl.field-list dd {
+    margin-left: 0;
+    padding-left: 15px;
+    flex: 0 0 66%;
+    max-width: 66%; }
+
+dl.field-list dt, dl.field-list dd {
+  padding-top: .5em;
+  padding-bottom: .5em; }
+
 .table-responsive {
   display: block;
   width: 100%;

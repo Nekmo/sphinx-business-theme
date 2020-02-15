@@ -304,6 +304,9 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
 
+html_experimental_html5_writer = True
+
+
 def setup(app):
     # app.add_stylesheet('custom.css')
     pass
