@@ -763,65 +763,42 @@ a.text-dark:hover, a.text-dark:focus {
 .text-decoration-none {
   text-decoration: none !important; }
 
+dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.connect, dl.copy, dl.any {
+  break-before: auto;
+  break-after: auto;
+  break-inside: auto; }
+  dl.head > dd > dl.field-list, dl.get > dd > dl.field-list, dl.post > dd > dl.field-list, dl.put > dd > dl.field-list, dl.delete > dd > dl.field-list, dl.patch > dd > dl.field-list, dl.options > dd > dl.field-list, dl.trace > dd > dl.field-list, dl.connect > dd > dl.field-list, dl.copy > dd > dl.field-list, dl.any > dd > dl.field-list {
+    display: block; }
+    dl.head > dd > dl.field-list > *, dl.get > dd > dl.field-list > *, dl.post > dd > dl.field-list > *, dl.put > dd > dl.field-list > *, dl.delete > dd > dl.field-list > *, dl.patch > dd > dl.field-list > *, dl.options > dd > dl.field-list > *, dl.trace > dd > dl.field-list > *, dl.connect > dd > dl.field-list > *, dl.copy > dd > dl.field-list > *, dl.any > dd > dl.field-list > * {
+      flex-basis: unset; }
+  dl.head > dt, dl.get > dt, dl.post > dt, dl.put > dt, dl.delete > dt, dl.patch > dt, dl.options > dt, dl.trace > dt, dl.connect > dt, dl.copy > dt, dl.any > dt {
+    margin-bottom: 1em; }
+  dl.head > dd, dl.get > dd, dl.post > dd, dl.put > dd, dl.delete > dd, dl.patch > dd, dl.options > dd, dl.trace > dd, dl.connect > dd, dl.copy > dd, dl.any > dd {
+    margin-left: 0; }
+    dl.head > dd > p > strong, dl.get > dd > p > strong, dl.post > dd > p > strong, dl.put > dd > p > strong, dl.delete > dd > p > strong, dl.patch > dd > p > strong, dl.options > dd > p > strong, dl.trace > dd > p > strong, dl.connect > dd > p > strong, dl.copy > dd > p > strong, dl.any > dd > p > strong {
+      font-weight: normal; }
+  dl.head code.descname:first-child, dl.get code.descname:first-child, dl.post code.descname:first-child, dl.put code.descname:first-child, dl.delete code.descname:first-child, dl.patch code.descname:first-child, dl.options code.descname:first-child, dl.trace code.descname:first-child, dl.connect code.descname:first-child, dl.copy code.descname:first-child, dl.any code.descname:first-child {
+    font-size: 0.9em;
+    background-color: #337ab7;
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px; }
+  dl.head.get code.descname:first-child, dl.get.get code.descname:first-child, dl.post.get code.descname:first-child, dl.put.get code.descname:first-child, dl.delete.get code.descname:first-child, dl.patch.get code.descname:first-child, dl.options.get code.descname:first-child, dl.trace.get code.descname:first-child, dl.connect.get code.descname:first-child, dl.copy.get code.descname:first-child, dl.any.get code.descname:first-child {
+    background-color: #61AFFE; }
+  dl.head.post code.descname:first-child, dl.get.post code.descname:first-child, dl.post.post code.descname:first-child, dl.put.post code.descname:first-child, dl.delete.post code.descname:first-child, dl.patch.post code.descname:first-child, dl.options.post code.descname:first-child, dl.trace.post code.descname:first-child, dl.connect.post code.descname:first-child, dl.copy.post code.descname:first-child, dl.any.post code.descname:first-child {
+    background-color: #49CC90; }
+  dl.head.put code.descname:first-child, dl.get.put code.descname:first-child, dl.post.put code.descname:first-child, dl.put.put code.descname:first-child, dl.delete.put code.descname:first-child, dl.patch.put code.descname:first-child, dl.options.put code.descname:first-child, dl.trace.put code.descname:first-child, dl.connect.put code.descname:first-child, dl.copy.put code.descname:first-child, dl.any.put code.descname:first-child {
+    background-color: #FCA130; }
+  dl.head.patch code.descname:first-child, dl.get.patch code.descname:first-child, dl.post.patch code.descname:first-child, dl.put.patch code.descname:first-child, dl.delete.patch code.descname:first-child, dl.patch.patch code.descname:first-child, dl.options.patch code.descname:first-child, dl.trace.patch code.descname:first-child, dl.connect.patch code.descname:first-child, dl.copy.patch code.descname:first-child, dl.any.patch code.descname:first-child {
+    background-color: #50E3C2; }
+  dl.head.delete code.descname:first-child, dl.get.delete code.descname:first-child, dl.post.delete code.descname:first-child, dl.put.delete code.descname:first-child, dl.delete.delete code.descname:first-child, dl.patch.delete code.descname:first-child, dl.options.delete code.descname:first-child, dl.trace.delete code.descname:first-child, dl.connect.delete code.descname:first-child, dl.copy.delete code.descname:first-child, dl.any.delete code.descname:first-child {
+    background-color: #F93E3E; }
+
 body div.body {
   min-width: unset;
   max-width: unset; }
-
-dl.head > dd > dl.field-list, dl.get > dd > dl.field-list, dl.post > dd > dl.field-list, dl.put > dd > dl.field-list, dl.delete > dd > dl.field-list, dl.patch > dd > dl.field-list, dl.options > dd > dl.field-list, dl.trace > dd > dl.field-list, dl.connect > dd > dl.field-list, dl.copy > dd > dl.field-list, dl.any > dd > dl.field-list {
-  display: block; }
-  dl.head > dd > dl.field-list > *, dl.get > dd > dl.field-list > *, dl.post > dd > dl.field-list > *, dl.put > dd > dl.field-list > *, dl.delete > dd > dl.field-list > *, dl.patch > dd > dl.field-list > *, dl.options > dd > dl.field-list > *, dl.trace > dd > dl.field-list > *, dl.connect > dd > dl.field-list > *, dl.copy > dd > dl.field-list > *, dl.any > dd > dl.field-list > * {
-    flex-basis: unset; }
-
-dl.head > dt, dl.get > dt, dl.post > dt, dl.put > dt, dl.delete > dt, dl.patch > dt, dl.options > dt, dl.trace > dt, dl.connect > dt, dl.copy > dt, dl.any > dt {
-  margin-bottom: 1em; }
-
-dl.head > dd, dl.get > dd, dl.post > dd, dl.put > dd, dl.delete > dd, dl.patch > dd, dl.options > dd, dl.trace > dd, dl.connect > dd, dl.copy > dd, dl.any > dd {
-  margin-left: 0; }
-  dl.head > dd > p > strong, dl.get > dd > p > strong, dl.post > dd > p > strong, dl.put > dd > p > strong, dl.delete > dd > p > strong, dl.patch > dd > p > strong, dl.options > dd > p > strong, dl.trace > dd > p > strong, dl.connect > dd > p > strong, dl.copy > dd > p > strong, dl.any > dd > p > strong {
-    font-weight: normal; }
-
-dl.head code.descname, dl.get code.descname, dl.post code.descname, dl.put code.descname, dl.delete code.descname, dl.patch code.descname, dl.options code.descname, dl.trace code.descname, dl.connect code.descname, dl.copy code.descname, dl.any code.descname {
-  display: inline-block;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
-  font-weight: bold;
-  font-size: 1em; }
-
-dl.head code.descname:first-child, dl.get code.descname:first-child, dl.post code.descname:first-child, dl.put code.descname:first-child, dl.delete code.descname:first-child, dl.patch code.descname:first-child, dl.options code.descname:first-child, dl.trace code.descname:first-child, dl.connect code.descname:first-child, dl.copy code.descname:first-child, dl.any code.descname:first-child {
-  font-size: 0.9em;
-  background-color: #337ab7;
-  color: white;
-  display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px; }
-
-dl.head code.descname, dl.get code.descname, dl.post code.descname, dl.put code.descname, dl.delete code.descname, dl.patch code.descname, dl.options code.descname, dl.trace code.descname, dl.connect code.descname, dl.copy code.descname, dl.any code.descname {
-  background: #f8f8f8;
-  display: inline-block;
-  padding-right: 0.5em;
-  padding-left: 0.5em; }
-
-dl.head code.descname:first-child, dl.get code.descname:first-child, dl.post code.descname:first-child, dl.put code.descname:first-child, dl.delete code.descname:first-child, dl.patch code.descname:first-child, dl.options code.descname:first-child, dl.trace code.descname:first-child, dl.connect code.descname:first-child, dl.copy code.descname:first-child, dl.any code.descname:first-child {
-  background-color: #337ab7;
-  color: white;
-  display: inline-block;
-  padding-left: 6px;
-  padding-right: 6px; }
-
-dl.head.get code.descname:first-child, dl.get.get code.descname:first-child, dl.post.get code.descname:first-child, dl.put.get code.descname:first-child, dl.delete.get code.descname:first-child, dl.patch.get code.descname:first-child, dl.options.get code.descname:first-child, dl.trace.get code.descname:first-child, dl.connect.get code.descname:first-child, dl.copy.get code.descname:first-child, dl.any.get code.descname:first-child {
-  background-color: #61AFFE; }
-
-dl.head.post code.descname:first-child, dl.get.post code.descname:first-child, dl.post.post code.descname:first-child, dl.put.post code.descname:first-child, dl.delete.post code.descname:first-child, dl.patch.post code.descname:first-child, dl.options.post code.descname:first-child, dl.trace.post code.descname:first-child, dl.connect.post code.descname:first-child, dl.copy.post code.descname:first-child, dl.any.post code.descname:first-child {
-  background-color: #49CC90; }
-
-dl.head.put code.descname:first-child, dl.get.put code.descname:first-child, dl.post.put code.descname:first-child, dl.put.put code.descname:first-child, dl.delete.put code.descname:first-child, dl.patch.put code.descname:first-child, dl.options.put code.descname:first-child, dl.trace.put code.descname:first-child, dl.connect.put code.descname:first-child, dl.copy.put code.descname:first-child, dl.any.put code.descname:first-child {
-  background-color: #FCA130; }
-
-dl.head.patch code.descname:first-child, dl.get.patch code.descname:first-child, dl.post.patch code.descname:first-child, dl.put.patch code.descname:first-child, dl.delete.patch code.descname:first-child, dl.patch.patch code.descname:first-child, dl.options.patch code.descname:first-child, dl.trace.patch code.descname:first-child, dl.connect.patch code.descname:first-child, dl.copy.patch code.descname:first-child, dl.any.patch code.descname:first-child {
-  background-color: #50E3C2; }
-
-dl.head.delete code.descname:first-child, dl.get.delete code.descname:first-child, dl.post.delete code.descname:first-child, dl.put.delete code.descname:first-child, dl.delete.delete code.descname:first-child, dl.patch.delete code.descname:first-child, dl.options.delete code.descname:first-child, dl.trace.delete code.descname:first-child, dl.connect.delete code.descname:first-child, dl.copy.delete code.descname:first-child, dl.any.delete code.descname:first-child {
-  background-color: #F93E3E; }
 
 .docutils th.field-name {
   display: table-row; }
