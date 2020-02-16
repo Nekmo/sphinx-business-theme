@@ -6,6 +6,7 @@
 @import "tables";
 @import "blocks";
 @import "alerts";
+@import "code";
 @import "toc";
 @import "pages";
 @import "cover";
@@ -142,14 +143,6 @@ html {
 
 .big-stats {
   font-size: 23pt;
-}
-
-.body {
-    text-align: justify;
-
-    pre {
-        text-align: left;
-    }
 }
 
 .docutils.literal.notranslate {
