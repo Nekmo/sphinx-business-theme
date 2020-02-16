@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'D3 Euronism';
   font-style: normal;
@@ -235,6 +236,51 @@ div.topic {
 
 .alert-dark .alert-link {
   color: #040505; }
+
+.contents ul {
+  list-style: none; }
+
+.contents > ul {
+  padding-left: 0; }
+  .contents > ul > li {
+    font-weight: 500;
+    line-height: 15pt;
+    margin: 3em 0 1em; }
+    .contents > ul > li::before {
+      background: #083764;
+      color: #ffffff;
+      content: "";
+      display: block;
+      height: 0.08cm;
+      margin-bottom: 0.25cm;
+      width: 2cm; }
+    .contents > ul > li a {
+      color: #000000;
+      font-size: 15pt; }
+    .contents > ul > li a::after {
+      color: #083764;
+      content: target-counter(attr(href url), page);
+      float: right; }
+    .contents > ul > li > ul {
+      list-style: none;
+      padding-left: 0; }
+      .contents > ul > li > ul li {
+        border-top: 0.3pt solid #c1c1c1;
+        margin: 0.25cm 0;
+        padding-top: 0.25cm;
+        line-height: 12pt;
+        font-weight: 300; }
+        .contents > ul > li > ul li a {
+          color: #000000;
+          font-size: 12pt; }
+        .contents > ul > li > ul li p::before {
+          color: #083764;
+          content: "• ";
+          font-size: 40pt;
+          line-height: 16pt;
+          vertical-align: bottom; }
+        .contents > ul > li > ul li ul {
+          padding-left: 2em; }
 
 .dont-break {
   page-break-inside: avoid; }
