@@ -471,8 +471,9 @@ dl.class dt, dl.type dt, dl.function dt, dl.member dt, dl.var dt, dl.enum dt, dl
       #back-cover .container .back-cover-footer p {
         width: 80%;
         margin: 0 auto;
-        text-align: center;
-        color: #ffffff; }
+        text-align: center; }
+        #back-cover .container .back-cover-footer p a {
+          color: #ffffff; }
 
 .badge {
   display: inline-block;
