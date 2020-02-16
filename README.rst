@@ -8,3 +8,16 @@ Installation
 Install the latest version from the source code using::
 
    $ pip install -e git+git@https://github.com/Nekmo/sphinx-business-theme@master#egg=business_theme
+
+
+Create documentation
+====================
+A `Cookicutter <https://github.com/cookiecutter/cookiecutter>`_ template is included to easily create new
+documentation. Execute::
+
+   $ create-docs
+
+To generate a new PDF output::
+
+   $ cd <documentation folder>
+   $ make pdf
