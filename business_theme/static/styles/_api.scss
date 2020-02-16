@@ -27,6 +27,10 @@ dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.
         }
     }
 
+    span.sig-paren, em.property, em.sig-param {
+        font-weight: normal;
+    }
+
     code.descname:first-child {
         font-size: 0.9em;
         background-color: #337ab7;

@@ -888,6 +888,8 @@ dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.
     margin-left: 0; }
     dl.head > dd > p > strong, dl.get > dd > p > strong, dl.post > dd > p > strong, dl.put > dd > p > strong, dl.delete > dd > p > strong, dl.patch > dd > p > strong, dl.options > dd > p > strong, dl.trace > dd > p > strong, dl.connect > dd > p > strong, dl.copy > dd > p > strong, dl.any > dd > p > strong {
       font-weight: normal; }
+  dl.head span.sig-paren, dl.head em.property, dl.head em.sig-param, dl.get span.sig-paren, dl.get em.property, dl.get em.sig-param, dl.post span.sig-paren, dl.post em.property, dl.post em.sig-param, dl.put span.sig-paren, dl.put em.property, dl.put em.sig-param, dl.delete span.sig-paren, dl.delete em.property, dl.delete em.sig-param, dl.patch span.sig-paren, dl.patch em.property, dl.patch em.sig-param, dl.options span.sig-paren, dl.options em.property, dl.options em.sig-param, dl.trace span.sig-paren, dl.trace em.property, dl.trace em.sig-param, dl.connect span.sig-paren, dl.connect em.property, dl.connect em.sig-param, dl.copy span.sig-paren, dl.copy em.property, dl.copy em.sig-param, dl.any span.sig-paren, dl.any em.property, dl.any em.sig-param {
+    font-weight: normal; }
   dl.head code.descname:first-child, dl.get code.descname:first-child, dl.post code.descname:first-child, dl.put code.descname:first-child, dl.delete code.descname:first-child, dl.patch code.descname:first-child, dl.options code.descname:first-child, dl.trace code.descname:first-child, dl.connect code.descname:first-child, dl.copy code.descname:first-child, dl.any code.descname:first-child {
     font-size: 0.9em;
     background-color: #337ab7;
