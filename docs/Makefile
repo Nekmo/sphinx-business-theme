@@ -7,7 +7,7 @@ SPHINXBUILD   = sphinx-build
 SPHINXAPIDOC  = sphinx-apidoc
 PAPER         =
 BUILDDIR      = _build
-PROJECT_NAME  = Sphinx Bussiness Theme
+PROJECT_NAME  = Sphinx Business Theme
 DRIVE_FOLDER  = 
 
 # User-friendly check for sphinx-build
