@@ -401,6 +401,10 @@ dl.field-list dt, dl.field-list dd {
 .table-responsive > .table-bordered {
   border: 0; }
 
+div.topic {
+  border: 0;
+  padding: 0; }
+
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
