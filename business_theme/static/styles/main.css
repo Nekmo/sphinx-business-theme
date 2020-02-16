@@ -818,6 +818,20 @@ a.text-dark:hover, a.text-dark:focus {
     position: relative;
     z-index: 1; }
 
+a.download code.download.literal.notranslate {
+  color: #083764;
+  background-color: transparent;
+  font-family: inherit; }
+  a.download code.download.literal.notranslate:before {
+    display: inline-block;
+    font-family: fontawesome-webfont;
+    content: "\f019";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    margin-right: 2px; }
+
 .admonition {
   padding: 12px;
   line-height: 24px;
