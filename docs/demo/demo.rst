@@ -135,6 +135,9 @@ Block Quotes
 
 Block quotes consist of indented body elements:
 
+
+.. container:: square-brackets-quote
+
     My theory by A. Elk.  Brackets Miss, brackets.  This theory goes
     as follows and begins now.  All brontosauruses are thin at one
     end, much much thicker in the middle and then thin again at the

@@ -12,102 +12,136 @@
 }
 
 .text-white {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .text-primary {
-  color: #007bff !important;
+    color: #007bff !important;
 }
 
 a {
-  color: #083764;
-  text-decoration: none;
+    color: #083764;
+    text-decoration: none;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #0056b3 !important;
+    color: #0056b3 !important;
 }
 
 .text-secondary {
-  color: #6c757d !important;
+    color: #6c757d !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #494f54 !important;
+    color: #494f54 !important;
 }
 
 .text-success {
-  color: #28a745 !important;
+    color: #28a745 !important;
 }
 
 a.text-success:hover, a.text-success:focus {
-  color: #19692c !important;
+    color: #19692c !important;
 }
 
 .text-info {
-  color: #17a2b8 !important;
+    color: #17a2b8 !important;
 }
 
 a.text-info:hover, a.text-info:focus {
-  color: #0f6674 !important;
+    color: #0f6674 !important;
 }
 
 .text-warning {
-  color: #ffc107 !important;
+    color: #ffc107 !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
-  color: #ba8b00 !important;
+    color: #ba8b00 !important;
 }
 
 .text-danger {
-  color: #dc3545 !important;
+    color: #dc3545 !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
-  color: #a71d2a !important;
+    color: #a71d2a !important;
 }
 
 .text-light {
-  color: #f8f9fa !important;
+    color: #f8f9fa !important;
 }
 
 a.text-light:hover, a.text-light:focus {
-  color: #cbd3da !important;
+    color: #cbd3da !important;
 }
 
 .text-dark {
-  color: #343a40 !important;
+    color: #343a40 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #121416 !important;
+    color: #121416 !important;
 }
 
 .text-body {
-  color: #212529 !important;
+    color: #212529 !important;
 }
 
 .text-muted {
-  color: #6c757d !important;
+    color: #6c757d !important;
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .text-hide {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
 }
 
 .text-decoration-none {
-  text-decoration: none !important;
+    text-decoration: none !important;
+}
+
+.square-brackets-quote {
+    border: solid 1em #ccc;
+    // display:inline-block;
+    margin: 0;
+    padding: 1em;
+    position:relative;
+    // margin-left: 0;
+
+    max-width: 100%;
+
+
+    &:before {
+        background-color: white;
+        bottom: -1em;
+        content: "";
+        left: 2em;
+        position: absolute;
+        right: 2em;
+        top: -1em;
+    }
+    cite {
+        color: #757575;
+        display: block;
+        font-size: small;
+        font-style: normal;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    > * {
+        position: relative;
+        z-index: 1;
+    }
 }

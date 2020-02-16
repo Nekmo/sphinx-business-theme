@@ -791,6 +791,31 @@ a.text-dark:hover, a.text-dark:focus {
 .text-decoration-none {
   text-decoration: none !important; }
 
+.square-brackets-quote {
+  border: solid 1em #ccc;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+  max-width: 100%; }
+  .square-brackets-quote:before {
+    background-color: white;
+    bottom: -1em;
+    content: "";
+    left: 2em;
+    position: absolute;
+    right: 2em;
+    top: -1em; }
+  .square-brackets-quote cite {
+    color: #757575;
+    display: block;
+    font-size: small;
+    font-style: normal;
+    text-align: right;
+    text-transform: uppercase; }
+  .square-brackets-quote > * {
+    position: relative;
+    z-index: 1; }
+
 .admonition-title:before {
   display: inline-block;
   font-family: fontawesome-webfont;
