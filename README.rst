@@ -1,3 +1,9 @@
+.. image:: https://raw.githubusercontent.com/Nekmo/sphinx-business-theme/master/logo.png
+    :width: 100%
+
+|
+
+
 Sphinx Business Theme
 #####################
 Theme for Sphinx to create PDF files with a professional design. Use Weasyprint to generate the PDF file.
