@@ -250,21 +250,6 @@ False  True   True
 True   True   True
 =====  =====  ======
 
-Giant Tables
-^^^^^^^^^^^^
-
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  |
-+============+============+===========+============+============+===========+============+============+===========+============+============+===========+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-
 List Tables
 -----------
 
@@ -276,19 +261,19 @@ List Tables
     * - List table
       - Header 1
       - Header 2
-      - Header 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
+      - Header 3
     * - Stub Row 1
       - Row 1
       - Column 2
-      - Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
+      - Column 3
     * - Stub Row 2
       - Row 2
       - Column 2
-      - Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
+      - Column 3
     * - Stub Row 3
       - Row 3
       - Column 2
-      - Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
+      - Column 3
 
 .. list-table:: This is a list table with images in it.
 
