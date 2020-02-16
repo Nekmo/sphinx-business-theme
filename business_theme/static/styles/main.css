@@ -237,8 +237,25 @@ div.topic {
 .alert-dark .alert-link {
   color: #040505; }
 
-dl.class dt, dl.type dt, dl.function dt, dl.member dt, dl.var dt, dl.enum dt, dl.enum-class dt, dl.enum-struct dt {
+dl.class dt, dl.type dt, dl.function dt, dl.member dt, dl.var dt, dl.enum dt, dl.enum-class dt, dl.enum-struct dt, dl.method dt {
   text-align: left; }
+
+dl.class > dt, dl.type > dt, dl.function > dt, dl.member > dt, dl.var > dt, dl.enum > dt, dl.enum-class > dt, dl.enum-struct > dt, dl.method > dt {
+  font-weight: normal; }
+
+dl.class em.property, dl.type em.property, dl.function em.property, dl.member em.property, dl.var em.property, dl.enum em.property, dl.enum-class em.property, dl.enum-struct em.property, dl.method em.property {
+  font-weight: bold;
+  color: #007020; }
+
+dl.class em.sig-param, dl.type em.sig-param, dl.function em.sig-param, dl.member em.sig-param, dl.var em.sig-param, dl.enum em.sig-param, dl.enum-class em.sig-param, dl.enum-struct em.sig-param, dl.method em.sig-param {
+  color: #007020; }
+
+dl.class code.sig-prename, dl.type code.sig-prename, dl.function code.sig-prename, dl.member code.sig-prename, dl.var code.sig-prename, dl.enum code.sig-prename, dl.enum-class code.sig-prename, dl.enum-struct code.sig-prename, dl.method code.sig-prename {
+  font-weight: bold;
+  color: #4070a0; }
+
+dl.class code.sig-name, dl.type code.sig-name, dl.function code.sig-name, dl.member code.sig-name, dl.var code.sig-name, dl.enum code.sig-name, dl.enum-class code.sig-name, dl.enum-struct code.sig-name, dl.method code.sig-name {
+  color: #0e84b5; }
 
 .contents ul {
   list-style: none; }
