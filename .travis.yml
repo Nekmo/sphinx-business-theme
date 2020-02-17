@@ -1,0 +1,23 @@
+# Config file for automatic testing at travis-ci.org
+language: python
+python:
+  - 3.7
+dist: bionic
+sudo: required
+cache: pip
+branches:
+  only:
+  - master
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install sassc
+before_script:
+  - sudo apt install sassc
+  - pip install -r requirements.txt
+  - pip install -r docs/requirements.txt
+  - pip install -r docs/requirements.txt
+script:
+- cd business_theme/static/styles/
+- sassc main.scss main.css
+- cd ../../../docs/
+- make pdf
