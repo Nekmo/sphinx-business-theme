@@ -34,7 +34,6 @@ setup(
     },
     install_requires=[
         'sphinx',
-        'tinycss2>=1.0.0',
         'weasyprint',
         'google-api-python-client',
         'google-auth-httplib2',
