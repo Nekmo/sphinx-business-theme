@@ -22,6 +22,7 @@ script:
 - pip install -r requirements.txt
 - pip install WeasyPrint
 - make pdf
+- mv *.pdf demo.pdf
 - cd ../
 
 deploy:
