@@ -105,6 +105,9 @@ dl.field-list dt, dl.field-list dd {
   padding-top: .5em;
   padding-bottom: .5em; }
 
+.hlist ul {
+  list-style: none; }
+
 table.docutils {
   width: 100%;
   max-width: 100%;
