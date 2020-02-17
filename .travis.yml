@@ -10,7 +10,7 @@ branches:
   - master
 before_install:
   - sudo apt-get update
-  - sudo apt-get -y install sassc
+  - sudo apt-get -y install sassc texlive texlive-full
 before_script:
   - sudo apt install sassc
 script:
