@@ -771,11 +771,14 @@ html {
   html body h5 {
     font-size: 15pt;
     font-weight: 100; }
+  html body h6 {
+    font-size: 13pt;
+    font-weight: 100; }
   html body section h5 {
     margin-bottom: 1pt; }
   html body section p {
     margin-top: 0; }
-  html body h5 {
+  html body h5, html body h6 {
     margin-bottom: 0;
     padding-bottom: 0; }
 
