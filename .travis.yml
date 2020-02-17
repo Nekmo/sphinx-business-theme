@@ -11,11 +11,10 @@ branches:
 before_install:
   - sudo apt-get update
   - sudo apt-get -y install sassc texlive texlive-full
-before_script:
-  - sudo apt install sassc
 script:
 - cd business_theme/static/styles/
 - sassc main.scss main.css
+- ls -l
 - cd ../../../
 - python setup.py install
 - cd docs/
