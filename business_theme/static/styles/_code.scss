@@ -24,4 +24,12 @@ dl.class, dl.type, dl.function, dl.member, dl.var, dl.enum, dl.enum-class, dl.en
     code.sig-name {
         color: #0e84b5;
     }
+
+    dl.field-list {
+        display: block;
+
+        dt, dd {
+            padding-left: 0;
+        }
+    }
 }

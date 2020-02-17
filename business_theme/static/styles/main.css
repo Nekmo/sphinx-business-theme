@@ -265,6 +265,11 @@ dl.class code.sig-prename, dl.type code.sig-prename, dl.function code.sig-prenam
 dl.class code.sig-name, dl.type code.sig-name, dl.function code.sig-name, dl.member code.sig-name, dl.var code.sig-name, dl.enum code.sig-name, dl.enum-class code.sig-name, dl.enum-struct code.sig-name, dl.method code.sig-name {
   color: #0e84b5; }
 
+dl.class dl.field-list, dl.type dl.field-list, dl.function dl.field-list, dl.member dl.field-list, dl.var dl.field-list, dl.enum dl.field-list, dl.enum-class dl.field-list, dl.enum-struct dl.field-list, dl.method dl.field-list {
+  display: block; }
+  dl.class dl.field-list dt, dl.class dl.field-list dd, dl.type dl.field-list dt, dl.type dl.field-list dd, dl.function dl.field-list dt, dl.function dl.field-list dd, dl.member dl.field-list dt, dl.member dl.field-list dd, dl.var dl.field-list dt, dl.var dl.field-list dd, dl.enum dl.field-list dt, dl.enum dl.field-list dd, dl.enum-class dl.field-list dt, dl.enum-class dl.field-list dd, dl.enum-struct dl.field-list dt, dl.enum-struct dl.field-list dd, dl.method dl.field-list dt, dl.method dl.field-list dd {
+    padding-left: 0; }
+
 .contents ul {
   list-style: none; }
 
@@ -680,7 +685,8 @@ dl.head, dl.get, dl.post, dl.put, dl.delete, dl.patch, dl.options, dl.trace, dl.
   dl.head > dd > dl.field-list, dl.get > dd > dl.field-list, dl.post > dd > dl.field-list, dl.put > dd > dl.field-list, dl.delete > dd > dl.field-list, dl.patch > dd > dl.field-list, dl.options > dd > dl.field-list, dl.trace > dd > dl.field-list, dl.connect > dd > dl.field-list, dl.copy > dd > dl.field-list, dl.any > dd > dl.field-list {
     display: block; }
     dl.head > dd > dl.field-list > *, dl.get > dd > dl.field-list > *, dl.post > dd > dl.field-list > *, dl.put > dd > dl.field-list > *, dl.delete > dd > dl.field-list > *, dl.patch > dd > dl.field-list > *, dl.options > dd > dl.field-list > *, dl.trace > dd > dl.field-list > *, dl.connect > dd > dl.field-list > *, dl.copy > dd > dl.field-list > *, dl.any > dd > dl.field-list > * {
-      flex-basis: unset; }
+      flex-basis: unset;
+      padding-left: 0; }
   dl.head > dt, dl.get > dt, dl.post > dt, dl.put > dt, dl.delete > dt, dl.patch > dt, dl.options > dt, dl.trace > dt, dl.connect > dt, dl.copy > dt, dl.any > dt {
     margin-bottom: 1em; }
   dl.head > dd, dl.get > dd, dl.post > dd, dl.put > dd, dl.delete > dd, dl.patch > dd, dl.options > dd, dl.trace > dd, dl.connect > dd, dl.copy > dd, dl.any > dd {
