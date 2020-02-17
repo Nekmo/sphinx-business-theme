@@ -22,12 +22,13 @@ script:
 - pip install -r requirements.txt
 - pip install WeasyPrint
 - make pdf
-- mv *.pdf demo.pdf
 - cd ../
+- make dist
+- mv docs/*.pdf dist/demo.pdf
 
 deploy:
   - provider: releases
     skip_cleanup: true
     api_key: $GITHUB_TOKEN
     file_glob: true
-    file: docs/*.pdf
+    file: dist/*

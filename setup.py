@@ -35,9 +35,6 @@ setup(
     install_requires=[
         'sphinx',
         'weasyprint',
-        'google-api-python-client',
-        'google-auth-httplib2',
-        'google-auth-oauthlib',
         'click',
         'cookiecutter',
     ],
