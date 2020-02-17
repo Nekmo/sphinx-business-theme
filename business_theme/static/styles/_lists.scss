@@ -1,3 +1,11 @@
+ul, ol {
+    padding-left: 15px;
+
+    ul, ol {
+        padding-left: 20px;
+    }
+}
+
 dl {
     dt {
         font-weight: bold;

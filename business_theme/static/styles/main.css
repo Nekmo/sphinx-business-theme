@@ -79,6 +79,11 @@
   src: url("../fonts/fa-solid-900.eot");
   src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome-webfont") format("svg"); }
 
+ul, ol {
+  padding-left: 15px; }
+  ul ul, ul ol, ol ul, ol ol {
+    padding-left: 20px; }
+
 dl dt {
   font-weight: bold; }
 
