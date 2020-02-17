@@ -13,11 +13,11 @@ before_install:
   - sudo apt-get -y install sassc
 before_script:
   - sudo apt install sassc
-  - pip install -r requirements.txt
-  - pip install -r docs/requirements.txt
-  - pip install -r docs/requirements.txt
 script:
 - cd business_theme/static/styles/
 - sassc main.scss main.css
-- cd ../../../docs/
+- cd ../../../
+- python setup.py install
+- cd docs/
+- pip install -r requirements.txt
 - make pdf
