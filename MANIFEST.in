@@ -1,6 +1,6 @@
 include AUTHORS.rst
 include README.rst
-include business_theme/static/styles *.css
+include business_theme/static/styles/*.css
 
 recursive-include business_theme/static/images *
 recursive-include business_theme/static/fonts *

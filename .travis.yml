@@ -16,7 +16,7 @@ script:
 - sassc main.scss main.css
 - ls -l
 - cd ../../../
-- python setup.py install
+- python setup.py develop
 - cd docs/
 - pip install -r requirements.txt
 - pip install WeasyPrint
