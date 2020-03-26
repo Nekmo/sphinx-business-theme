@@ -61,10 +61,10 @@ rinohpdf:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 pdf:
-	HTML_THEME=sphinx_bussiness_theme make singlehtml
+	HTML_THEME=business_theme make singlehtml
 	weasyprint _build/singlehtml/index.html "$(PROJECT_NAME).pdf"
 	rm -rf _build
-	python -m sphinx_bussiness_theme upload "$(PROJECT_NAME).pdf" "$(PROJECT_NAME).pdf" "$(DRIVE_FOLDER)"
+	python -m business_theme upload "$(PROJECT_NAME).pdf" "$(PROJECT_NAME).pdf" "$(DRIVE_FOLDER)"
 	@echo
 	@echo "Build finished. The PDF file is in $(BUILDDIR)/."
 
