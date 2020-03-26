@@ -13,7 +13,7 @@ Installation
 ============
 Install the latest version from the source code using::
 
-   $ pip install -e git+git@https://github.com/Nekmo/sphinx-business-theme@master#egg=business_theme
+   $ pip install git+https://github.com/Nekmo/sphinx-business-theme@master#egg=business_theme
 
 
 Create documentation
