@@ -1,7 +1,10 @@
 include AUTHORS.rst
 include README.rst
+include cookiecutter.json
 include business_theme/static/styles/*.css
+include business_theme/theme.conf
 
+recursive-include business_theme *.html
 recursive-include business_theme/static/images *
 recursive-include business_theme/static/fonts *
 recursive-exclude * __pycache__
