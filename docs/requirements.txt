@@ -1,1 +1,3 @@
-sphinxcontrib-httpdomain
+Sphinx==2.4.4
+sphinxcontrib-httpdomain==1.7.0
+WeasyPrint==51
