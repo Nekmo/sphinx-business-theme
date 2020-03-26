@@ -31,6 +31,17 @@ a pdf::
    $ cd <documentation folder>
    $ make pdf
 
+
 However, the pdf starts without content. Write your document by editing the files ``index.rst`` and ``readme.rst``.  The
 syntax of the files is RestructuredText (rst). The syntax documentation is on the
 `Sphinx website <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
+
+Demo project
+============
+
+You can play updating content inside `docs/demo` dir and making the pdf again as:
+
+::
+
+   cd docs/demo
+   make pdf
