@@ -3,7 +3,7 @@
 
     <!-- Logo -->
     <div class="logo">
-      <p>Company name</p>
+      <p>{{ cover_logo_title }}</p>
     </div>
 
     <!-- Cover middle -->
@@ -12,8 +12,8 @@
         <h1 class="title-cover">{{ project|striptags|e }}</h1>
         <p class="subtitle-cover">Version {{ version }}</p>
         <span class="meta">
-          Meta data
-      </span>
+          {{ cover_meta_data }}
+        </span>
       </div>
         <!--
       <div class="client-logo">
@@ -25,7 +25,7 @@
     <!-- Footer -->
     <div class="cover-footer">
       <p>
-          Secret info
+        {{ cover_footer }}
       </p>
     </div>
   </div>

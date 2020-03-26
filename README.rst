@@ -27,3 +27,15 @@ To generate a new PDF output::
 
    $ cd <documentation folder>
    $ make pdf
+
+
+
+Demo project
+============
+
+You can play updating content inside `docs/demo` dir and making the pdf again as:
+
+::
+
+   cd docs/demo
+   make pdf

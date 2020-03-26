@@ -15,7 +15,14 @@
 import datetime
 import sys
 import os
-# import django
+
+try:
+    import django
+    sys.path.insert(0, os.path.abspath('..'))
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+    django.setup()
+except ImportError:
+    pass
 
 # If extensions (or modules to document with autodoc) are in another
 # directory, add these directories to sys.path here. If the directory is
@@ -73,7 +80,12 @@ rinoh_documents = [('index',            # top-level file (index.rst)
 # rinoh_logo = '_static/logo.png'
 rinoh_domain_indices = False
 
-html_context = dict(docs_scope='external')
+html_context = {
+    'docs_scope': 'external',
+    'cover_logo_title': 'Company name',
+    'cover_meta_data': 'Meta data',
+    'cover_footer': 'Secret info',
+}
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -140,7 +152,7 @@ html_theme_options = {
 
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['.']
+html_theme_path = ['.', '../']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
