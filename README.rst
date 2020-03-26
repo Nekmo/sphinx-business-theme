@@ -3,6 +3,10 @@
 
 |
 
+.. image:: https://img.shields.io/travis/Nekmo/sphinx-business-theme.svg?style=flat-square&maxAge=2592000
+  :target: https://travis-ci.org/Nekmo/sphinx-business-theme
+  :alt: Latest Travis CI build status
+
 
 Sphinx Business Theme
 #####################
