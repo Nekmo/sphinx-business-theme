@@ -15,12 +15,17 @@ Theme for Sphinx to create PDF files with a professional design. Use Weasyprint 
 
 Installation
 ============
-Install the latest version from the source code using (you need previously `installed pip <https://pip.pypa
-.io/en/stable/installing/>`_). Only `Python 3+ is supported <https://realpython.com/installing-python/>`_::
+Install the latest version from Pypi (you need previously `installed pip <https://pip.pypa
+.io/en/stable/installing/>`_)::
 
-   pip3 install https://github.com/Nekmo/sphinx-business-theme/archive/master.tar.gz#egg=business_theme
+    pip3 install -U sphinx-business-theme
 
-Currently only tested on unix systems. The command must be executed in a terminal.
+You can also install the latest version from Github::
+
+   pip3 install https://github.com/Nekmo/sphinx-business-theme/releases/latest/download/business_theme-0.1.0.tar.gz#egg=business_theme
+
+Only `Python 3+ is supported <https://realpython.com/installing-python/>`_ Currently only tested on unix systems. The
+command must be executed in a terminal.
 
 Create documentation
 ====================

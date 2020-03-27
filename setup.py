@@ -5,7 +5,7 @@ from business_theme import __version__
 
 
 setup(
-    name='business_theme',
+    name='sphinx-business-theme',
     version=__version__,
     url='https://github.com/Nekmo/sphinx-business-theme',
     license='MIT',
