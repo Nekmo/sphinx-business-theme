@@ -10,8 +10,9 @@
 
 Sphinx Business Theme
 #####################
-Theme for Sphinx to create PDF files with a professional design. Use Weasyprint to generate the PDF file.
-`Download example <https://github.com/Nekmo/sphinx-business-theme/releases/download/v0.0.0/Sphinx.Business.Theme.pdf>`_.
+Theme for Sphinx to create PDF files with a professional design. This theme uses Weasyprint to generate the output to
+PDF.
+`A demo PDF is available <https://github.com/Nekmo/sphinx-business-theme/releases/latest/download/demo.pdf>`_.
 
 Installation
 ============
@@ -25,7 +26,9 @@ You can also install the latest version from Github::
    pip3 install https://github.com/Nekmo/sphinx-business-theme/releases/latest/download/business_theme-0.1.0.tar.gz#egg=business_theme
 
 Only `Python 3+ is supported <https://realpython.com/installing-python/>`_ Currently only tested on unix systems. The
-command must be executed in a terminal.
+command must be executed in a terminal. More info in the web documentation (or in the `pdf documentation
+<https://github.com/Nekmo/sphinx-business-theme/releases/latest/download/docs.pdf>`_).
+
 
 Create documentation
 ====================
@@ -44,6 +47,9 @@ a pdf::
 However, the pdf starts without content. Write your document by editing the files ``index.rst`` and ``readme.rst``.  The
 syntax of the files is RestructuredText (rst). The syntax documentation is on the
 `Sphinx website <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
+
+Read the docs on the web (or in `pdf <https://github.com/Nekmo/sphinx-business-theme/releases/latest/
+download/docs.pdf>`_).
 
 Demo project
 ============
