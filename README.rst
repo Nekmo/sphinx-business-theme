@@ -48,9 +48,9 @@ syntax of the files is RestructuredText (rst). The syntax documentation is on th
 Demo project
 ============
 
-You can play updating content inside `docs/demo` dir and making the pdf again as:
+You can play updating content inside `demo/` dir and making the pdf again as:
 
 ::
 
-   cd docs/demo
+   cd demo/
    make pdf

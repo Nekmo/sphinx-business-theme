@@ -16,12 +16,12 @@ script:
 - ls -l
 - cd ../../../
 - python setup.py develop
-- cd docs/
+- cd demo/
 - pip install -r requirements.txt
 - make pdf
 - cd ../
 - make dist
-- mv docs/*.pdf dist/demo.pdf
+- mv demo/*.pdf dist/demo.pdf
 deploy:
   - provider: releases
     skip_cleanup: true
