@@ -64,7 +64,6 @@ pdf:
 	HTML_THEME=business_theme make singlehtml
 	weasyprint _build/singlehtml/index.html "$(PROJECT_NAME).pdf"
 	rm -rf _build
-	python -m business_theme upload "$(PROJECT_NAME).pdf" "$(PROJECT_NAME).pdf" "$(DRIVE_FOLDER)"
 	@echo
 	@echo "Build finished. The PDF file is in $(BUILDDIR)/."
 
