@@ -20,8 +20,13 @@ script:
 - pip install -r requirements.txt
 - make pdf
 - cd ../
+- cd docs/
+- pip install -r requirements.txt
+- make pdf
+- cd ../
 - make dist
 - mv demo/*.pdf dist/demo.pdf
+- mv docs/*.pdf dist/docs.pdf
 deploy:
   - provider: releases
     skip_cleanup: true
