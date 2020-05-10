@@ -6,6 +6,11 @@ Sphinx Business Theme documentation
    :glob:
 
    readme
+   installation
+   usage
+   contributing
+   authors
+   history
 
 ..
    _ modules
