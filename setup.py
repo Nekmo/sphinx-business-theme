@@ -37,6 +37,8 @@ setup(
         'weasyprint',
         'click',
         'cookiecutter',
+        'google-api-python-client',
+        'google-auth-oauthlib',
     ],
     classifiers=[
         'Framework :: Sphinx',
