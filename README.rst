@@ -62,7 +62,7 @@ You can play updating content inside `demo/` dir and making the pdf again as:
    make pdf
 
 Upload PDF to Google Drive
---------------------------
+==========================
 Set up Google Drive to keep renderer PDF in sync. Follow the steps below:
 
 #. Enable Drive API y download `credentials.json <https://developers.google.com/drive/api/v3/quickstart/python>`_
