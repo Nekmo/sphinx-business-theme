@@ -1,7 +1,14 @@
 # -*- coding: utf-8 -*-
+import os
 from io import open
 from setuptools import setup
 from business_theme import __version__
+
+
+directory = os.path.dirname(os.path.abspath(__file__))
+
+
+README_PATH = os.path.join(directory, 'README.rst')
 
 
 setup(
@@ -12,7 +19,7 @@ setup(
     author='Nekmo',
     author_email='contacto@nekmo.com',
     description='A theme for Sphinx to generate PDF documentation',
-    long_description=open('README.rst', encoding='utf-8').read(),
+    long_description=open(README_PATH, encoding='utf-8').read(),
     zip_safe=False,
     packages=['business_theme'],
     package_data={'business_theme': [
