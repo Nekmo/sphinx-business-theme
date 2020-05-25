@@ -60,3 +60,14 @@ You can play updating content inside `demo/` dir and making the pdf again as:
 
    cd demo/
    make pdf
+
+Upload PDF to Google Drive
+--------------------------
+Set up Google Drive to keep renderer PDF in sync. Follow the steps below:
+
+#. Enable Drive API y download `credentials.json <https://developers.google.com/drive/api/v3/quickstart/python>`_
+   by pressing "Enable the Drive API" button.
+#. Run ``mkdir -p ~/.config/google-drive/`` and copy *credentials.json* inside *google-drive/* folder.
+#. Get folder id from Google Drive url. For example: ``https://drive.google
+.com/drive/u/0/folders/1C1FrHclpyNtIX0xVXzlnVxxxxxx``
+#. Put this id in the cookiecutter wizard or ``Makefile`` file (``DRIVE_FOLDER`` variable).
