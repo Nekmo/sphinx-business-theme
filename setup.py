@@ -45,6 +45,7 @@ setup(
         'click',
         'cookiecutter',
         'google-api-python-client',
+        'google-auth',
         'google-auth-oauthlib',
     ],
     classifiers=[
