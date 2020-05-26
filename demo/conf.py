@@ -16,13 +16,6 @@ import datetime
 import sys
 import os
 
-try:
-    import django
-    sys.path.insert(0, os.path.abspath('..'))
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
-    django.setup()
-except ImportError:
-    pass
 
 # If extensions (or modules to document with autodoc) are in another
 # directory, add these directories to sys.path here. If the directory is
@@ -33,11 +26,10 @@ except ImportError:
 # Insert the project root dir as the first element in the PYTHONPATH.
 # This lets us ensure that the source package is imported, and that its
 # version is used.
+
 directory = os.path.dirname(os.path.abspath(__file__))
 
-sys.path.append(os.path.abspath(os.path.join(directory, '../')))
-# os.environ['DJANGO_SETTINGS_MODULE'] = 'Sphinx Business Theme.settings.develop'
-# django.setup()
+sys.path.append(os.path.join(directory, 'demo'))
 
 # -- General configuration ---------------------------------------------
 

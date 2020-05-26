@@ -67,7 +67,6 @@ pdf:
 	@echo "Build finished. The PDF file is in $(BUILDDIR)/."
 
 html:
-	$(SPHINXAPIDOC) -o . ../
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
