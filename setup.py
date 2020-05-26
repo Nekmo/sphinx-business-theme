@@ -44,10 +44,14 @@ setup(
         'weasyprint',
         'click',
         'cookiecutter',
-        'google-api-python-client',
-        'google-auth',
-        'google-auth-oauthlib',
     ],
+    extras_require={
+        'drive': [
+            'google-auth',
+            'google-api-python-client',
+            'google-auth-oauthlib',
+        ],
+    },
     classifiers=[
         'Framework :: Sphinx',
         'Framework :: Sphinx :: Theme',
