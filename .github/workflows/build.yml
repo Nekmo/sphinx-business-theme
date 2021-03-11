@@ -13,6 +13,10 @@ jobs:
           python-version: '3.8'
       - name: Install packages
         run: |
+          sudo apt-get update
+          sudo apt-get -y install sassc texlive texlive-full
+      - name: Build
+        run: |
           cd business_theme/static/styles/
           sassc main.scss main.css
           ls -l
