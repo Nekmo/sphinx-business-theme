@@ -17,6 +17,7 @@ jobs:
           sudo apt-get -y install sassc texlive texlive-full
       - name: Build
         run: |
+          pip install -U wheel pip
           cd business_theme/static/styles/
           sassc main.scss main.css
           ls -l
