@@ -1,0 +1,38 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install packages
+        run: |
+          cd business_theme/static/styles/
+          sassc main.scss main.css
+          ls -l
+          cd ../../../
+          python setup.py develop
+          cd demo/
+          pip install -r requirements.txt
+          make pdf
+          cd ../
+          cd docs/
+          pip install -r requirements.txt
+          make pdf
+          cd ../
+          make dist
+          mv demo/*.pdf dist/demo.pdf
+          mv docs/*.pdf dist/docs.pdf
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/*
+          tag_name: release-${{ github.sha }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Github puts it
